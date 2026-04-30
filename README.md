@@ -1,16 +1,87 @@
-# app_xem_du_bao_thoi_tiet
+🌦️ Weather Forecast App (Flutter)
 
-A new Flutter project.
+Ứng dụng dự báo thời tiết thông minh được phát triển bằng Flutter, cung cấp thông tin thời tiết theo thời gian thực, dự báo nhiều ngày và phân tích bằng AI.
 
-## Getting Started
+🚀 Features
+🌍 Xem thời tiết theo vị trí hiện tại
+🔍 Tìm kiếm thành phố
+📅 Dự báo thời tiết theo ngày & giờ
+🗺️ Bản đồ thời tiết trực quan
+🤖 AI phân tích & tóm tắt thời tiết
+⚠️ Cảnh báo thời tiết (mưa, bão, sương mù…)
+📊 Phân tích dữ liệu thời tiết
+❤️ Quản lý nhiều địa điểm yêu thích
+⚙️ Tùy chỉnh (theme, đơn vị °C/°F...)
+🧠 Technologies Used
+Flutter (Dart)
+REST API (Weather API)
+Provider (State Management)
+Clean Architecture
+JSON & HTTP
+AI Summary (custom logic / API)
+📁 Project Structure
+lib/
+│
+├── core/                # Base config, theme, widgets chung
+├── features/
+│   └── weather/
+│       ├── data/        # API, model
+│       ├── domain/      # entity, repository
+│       └── presentation/
+│           ├── pages/   # UI screens
+│           ├── widgets/
+│           └── providers/
+│
+└── main.dart
+📸 Screenshots
 
-This project is a starting point for a Flutter application.
+(Bạn nên thêm ảnh vào đây để ăn điểm 👇)
 
-A few resources to get you started if this is your first Flutter project:
+assets/screenshots/
+⚙️ Installation
+1. Clone project
+git clone https://github.com/minhbsdz05/AppXemDuBaoThoiTiett.git
+cd app_xem_du_bao_thoi_tiet
+2. Cài dependencies
+flutter pub get
+3. Chạy app
+flutter run
+🔑 API Configuration
+Sử dụng Weather API (ví dụ: OpenWeatherMap)
+Thêm API Key vào file:
+lib/core/config/api_config.dart
+📊 AI Feature
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Ứng dụng có tích hợp AI Weather Summary:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Tóm tắt thời tiết dễ hiểu
+Phân tích xu hướng
+Gợi ý hoạt động (nếu bạn mở rộng)
+🎯 Future Improvements
+🔔 Push Notification cảnh báo thời tiết
+🌐 Multi-language (VN/EN)
+☁️ Đồng bộ cloud
+📈 Machine Learning dự đoán thời tiết
+👨‍💻 Author
+Minh Hoàng Anh
+GitHub: https://github.com/minhbsdz05
+📄 License
+
+This project is for educational purposes.
+
+⭐ Nếu thấy hay hãy star repo nhé!
+🔥 Gợi ý nâng cấp (rất nên làm để ăn điểm cao)
+
+Bạn nên thêm:
+
+1. Badge xịn
+
+Thêm vào đầu README:
+
+![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)
+![Platform](https://img.shields.io/badge/platform-android%20|%20ios-green)
+![License](https://img.shields.io/badge/license-MIT-orange)
+2. Demo video
+## 🎥 Demo
+https://youtu.be/your-video
+3. UI đẹp hơn
